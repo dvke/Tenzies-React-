@@ -66,7 +66,6 @@ function App() {
     const allsameValue = dice.every((die) => die.value === dice[0].value);
     if (allHeld && allsameValue) {
       setTenzies(true);
-      endTime = new Date();
     }
   }, [dice]);
 
